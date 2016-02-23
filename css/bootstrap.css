@@ -22,8 +22,8 @@ This is where my added CSS will go.
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-/*  color: white;*/
-/*  width: 100%;*/
+/* color: white;*/
+ width: 100%;
 }
 #jumbo_image_2{
 
@@ -57,13 +57,18 @@ This is where my added CSS will go.
   color: black;
 }
 
-/*#my_row{
-  border: 8px solid red;
+#my_row{
+/*  border: 8px solid red;*/
+  padding-top: 10%;
+}
+
+/*#test-span{
+  border: 5px solid blue;
 }*/
 
 #jumbo_1_center_box{
   text-align: center;
-  margin-top: 10%;
+/*  margin-top: 10%;*/
   padding: 3%;
   background-color: #484848;
   opacity: .95;
@@ -97,6 +102,42 @@ This is where my added CSS will go.
   padding-top: 2%;
 }
 
+/*#test-box{
+  background-color: red;
+  height: 100px;
+}*/
+
+/*#test-1{
+  border: 3px solid blue;
+}
+
+#test-2{
+  border: 3px solid black;
+}*/
+
+
+#make_profile{
+  text-align: center;
+  padding: 2%;
+  background-color: #484848;
+  opacity: .95;
+  border-radius: 20px;
+  color: #1585ac;
+  font-size: 2.5em;
+/*  margin-top: 3%;*/
+  width: 30%;
+  margin-left: 33%;
+}
+
+.newRow {
+  width: 100%;
+  display: table;
+}
+
+#myPopup{
+  border: 2px solid blue;
+  display: none;
+}
 
 /*
 Anythign below this is built into bootstrap

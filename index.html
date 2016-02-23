@@ -43,12 +43,16 @@
 
   <div class="jumbotron" id="jumbo_image_1">
       <div class="row" id="my_row">
-        <div class="span4">
+
+        <div class="span5" id="test-span">
         </div>
+
         <div class="span7" id="jumbo_1_center_box">
+
           <div class="row" id="my_box">
             <h1>PathJump</h1>
           </div>
+
           <ul id="form_1">
             <li>
               <input type="text" class="span4" placeholder="First Name" >
@@ -64,6 +68,7 @@
             </li>
           </ul>
         </div>
+
       </div>
   </div>
 
@@ -83,12 +88,52 @@
   <a name="profile_location"></a>
   <div class="jumbotron" id="jumbo_image_3">
 
-    <h1>Make a Profile!</h1>
-    <input type="button" class="btn btn-success" value="Get Started!" id="get_started_btn"/>
+    <div =class"row newRow" id="make_profile">
+      Make a profile
+    </div>
+
+    <div class="row newRow" id="test-2">
+      <div>
+        <input type="button" class="btn btn-success" value="Get Started!" id="get_started_btn"/>
+
+        <div data-role="popup" id="myPopup" class="ui-content" style="min-width:250px;">
+          <form method="post" action="demoform.asp">
+
+            <div>
+              <h3>Make an Account</h3>
+
+              <label for="usrnm" class="ui-hidden-accessible">
+                Username:
+              </label>
+              <input type="text" name="user" id="usrnm" placeholder="Username">
+
+              <label for="pswd" class="ui-hidden-accessible">
+                Password:
+              </label>
+
+              <input type="password" name="passw" id="pswd" placeholder="Password">
+              <input type="submit" data-inline="true" value="Create!">
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
   </div>
 
-  <div class="jumbotron" id="jumbo_image_4">
+
+<!--   <div class="jumbotron" id="jumbo_image_4">
   </div>
+  <div class="row" id="test-box">
+    <div class="span4" id="test-1">
+    </div>
+
+    <div class="span5" id="test-2">
+    </div>
+  </div> -->
 
 
 
