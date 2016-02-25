@@ -43,7 +43,7 @@ This is where my added CSS will go.
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-  color: white;
+  /*color: white;*/
 }
 
 #jumbo_image_4{
@@ -102,18 +102,20 @@ This is where my added CSS will go.
   padding-top: 2%;
 }
 
-/*#test-box{
+#test-box{
   background-color: red;
   height: 100px;
-}*/
+}
 
-/*#test-1{
+#test-1{
   border: 3px solid blue;
+  height: 25px;
 }
 
 #test-2{
   border: 3px solid black;
-}*/
+  height: 25px;
+}
 
 
 #make_profile{
