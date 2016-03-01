@@ -140,10 +140,10 @@ This is where my added CSS will go.
   height: 25px;
 }
 
-#test-2{
+/*#test-2{
   border: 3px solid black;
   height: 25px;
-}
+}*/
 
 
 #make_profile{
@@ -197,7 +197,20 @@ This is where my added CSS will go.
   height: 25px;
 }
 
+#box_text{
+  color: white;
+  margin-top: 5%;
+}
 
+#box_text_2{
+  color: white;
+  margin-top: 5%;
+}
+
+#box_text_3{
+  color: white;
+  margin-top: 5%;
+}
 /*
 Anythign below this is built into bootstrap
 */
